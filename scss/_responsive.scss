@@ -1,0 +1,126 @@
+@media screen and (min-width:300px) and (max-width:970px) {
+
+    // BODY, WRAPPER
+
+    body {
+        background-color: none !important;
+
+        #wrapper {
+            width: 100% !important;
+        }
+    }
+
+    // SHOWCASE
+
+    .showcase {
+        text-align: center;
+
+        .showcase-content {
+            width: 100% !important;
+            padding: .5rem;
+
+            h1 {
+                font-size: 2.2rem !important;
+            }
+
+            br {
+                display: none;
+            }
+        }
+
+        .showcase-image {
+            display: none;
+        }
+    }
+
+    // ABOUT US
+
+    .about-us {
+        padding: .5rem;
+
+        p {
+            padding-left: 1rem;
+            padding-right: 1rem;
+
+            br {
+                display: none;
+            }
+        }
+
+        .images-box {
+            display: flex;
+            flex-direction: column !important;
+
+            img {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    // POPULAR COLOURS
+
+    .popular-colours {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .container {
+            margin-bottom: 1rem;
+        }
+    }
+
+    // CONTACT FORM 
+
+    .contact-form {
+        
+        form {
+
+            input {
+                width: 12rem !important;
+            }
+
+            textarea {
+                width: 12rem !important;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:600px) {
+
+    .gallery {
+        display: none !important;
+    }
+
+    .gallery-mobile {
+        display: block !important;
+        padding: 1rem;
+
+        img {
+            width: 100%;
+            margin-bottom: .5rem;
+        }
+    }
+}
+
+@media screen and (min-width:2000px) {
+
+    body {
+        
+        #wrapper {
+            width: 90rem !important;
+        }
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .btn-primary {
+        font-size: 1.9rem;
+    }
+
+    p {
+        font-size: 1.6rem !important;
+    }
+}
