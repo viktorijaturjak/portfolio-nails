@@ -150,6 +150,7 @@ h1 {
   }
   .about-us .images-box img {
     margin-bottom: 2rem;
+    width: 20rem !important;
   }
   .popular-colours {
     display: -webkit-box;
@@ -165,12 +166,13 @@ h1 {
   }
   .popular-colours .container {
     margin-bottom: 1rem;
+    width: 20rem !important;
   }
   .contact-form form input {
-    width: 12rem !important;
+    width: 15rem !important;
   }
   .contact-form form textarea {
-    width: 12rem !important;
+    width: 15rem !important;
   }
 }
 
