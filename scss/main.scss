@@ -152,6 +152,12 @@ body {
 
     form {
 
+        p {
+            font-size: 1.2rem;
+            margin-bottom: .5rem;
+            color: $grey;
+        }
+
         input {
             width: 20rem;
             border: 2px solid $pink;
@@ -159,10 +165,6 @@ body {
             margin-bottom: 1rem;
             text-align: center;
             font-size: 1.3rem;
-
-            &::placeholder {
-                color: #c5c3c4;
-            }
         }
 
         textarea {
@@ -174,7 +176,6 @@ body {
             height: 10rem;
             padding-top: .8rem;
             font-family: $text;
-            color: $placeholder;
             margin-bottom: 2rem;
         }
 

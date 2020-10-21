@@ -355,6 +355,12 @@ body #wrapper {
   padding: 4rem;
 }
 
+.contact-form form p {
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+  color: #5C5C5C;
+}
+
 .contact-form form input {
   width: 20rem;
   border: 2px solid #FFC1B4;
@@ -362,22 +368,6 @@ body #wrapper {
   margin-bottom: 1rem;
   text-align: center;
   font-size: 1.3rem;
-}
-
-.contact-form form input::-webkit-input-placeholder {
-  color: #c5c3c4;
-}
-
-.contact-form form input:-ms-input-placeholder {
-  color: #c5c3c4;
-}
-
-.contact-form form input::-ms-input-placeholder {
-  color: #c5c3c4;
-}
-
-.contact-form form input::placeholder {
-  color: #c5c3c4;
 }
 
 .contact-form form textarea {
@@ -389,7 +379,6 @@ body #wrapper {
   height: 10rem;
   padding-top: .8rem;
   font-family: "Lato", sans-serif;
-  color: #C3C3C3;
   margin-bottom: 2rem;
 }
 

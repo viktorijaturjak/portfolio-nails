@@ -84,9 +84,12 @@
         <!-- CONTACT FORM -->
         <section class="contact-form">
             <form action="php/contactform.php" method="POST">
-                <input type="text" placeholder="Full Name" name="name"><br>
-                <input type="text" placeholder="Email" name="mail"><br>
-                <textarea name="message" id="" cols="30" rows="10" placeholder="Message">Message</textarea><br>
+                <p>Full name:</p>
+                <input type="text" required><br>
+                <p>E-mail:</p>
+                <input type="text" name="mail" required><br>
+                <p>Message: </p>
+                <textarea name="message" id="" cols="30" rows="10" required></textarea><br>
                 <button type="submit" name="submit">send</button>
             </form>
         </section>
