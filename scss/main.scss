@@ -177,6 +177,24 @@ body {
             color: $placeholder;
             margin-bottom: 2rem;
         }
+
+        button {
+            color: $grey;
+            border: none;
+            text-decoration: none;
+            font-family: $text;
+            font-size: 1.3rem;
+            background-color: $pink;
+            padding: .7rem 1rem;
+            box-shadow: 10px 10px $shadow;
+            transition: all .17s ease-in-out;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #ffb7a8;
+                box-shadow: 10px 10px #ebebeb;
+            }
+        }
     }
 }
 

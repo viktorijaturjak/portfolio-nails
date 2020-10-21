@@ -393,6 +393,27 @@ body #wrapper {
   margin-bottom: 2rem;
 }
 
+.contact-form form button {
+  color: #5C5C5C;
+  border: none;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 1.3rem;
+  background-color: #FFC1B4;
+  padding: .7rem 1rem;
+  -webkit-box-shadow: 10px 10px #EEEEEE;
+          box-shadow: 10px 10px #EEEEEE;
+  -webkit-transition: all .17s ease-in-out;
+  transition: all .17s ease-in-out;
+  cursor: pointer;
+}
+
+.contact-form form button:hover {
+  background-color: #ffb7a8;
+  -webkit-box-shadow: 10px 10px #ebebeb;
+          box-shadow: 10px 10px #ebebeb;
+}
+
 iframe {
   margin-top: 4rem;
 }
