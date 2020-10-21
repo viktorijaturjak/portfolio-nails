@@ -370,6 +370,10 @@ body #wrapper {
   font-size: 1.3rem;
 }
 
+.contact-form form input:focus {
+  outline: none;
+}
+
 .contact-form form textarea {
   resize: none;
   border: 2px solid #FFC1B4;
@@ -380,6 +384,10 @@ body #wrapper {
   padding-top: .8rem;
   font-family: "Lato", sans-serif;
   margin-bottom: 2rem;
+}
+
+.contact-form form textarea:focus {
+  outline: none;
 }
 
 .contact-form form button {
